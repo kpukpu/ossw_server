@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 
 from transformers import BertTokenizer #기사 요약용
 from transformers import BertModel#기사 요약용
-from transformers import AutoModel, AutoTokenizer#기사 요약용
 import torch
 from summarizer import Summarizer#기사 요약용
 
